@@ -36,7 +36,10 @@ nodes:
         protocol: TCP
   - role: worker
     labels:
-      lattice.sapcloud.io/group: bksvc-1
+      lattice.nunocg.io/group: worker-1
   - role: worker
     labels:
-      lattice.sapcloud.io/group: bksvc-2
+      lattice.nunocg.io/group: worker-2
+  - role: worker
+    labels:
+      lattice.nunocg.io/group: worker-3
