@@ -1,3 +1,3 @@
 # Kubernetes Local Cluster Bootstrapper using Kind
 
-Clean Kubernetes Cluster for hands on exercises on top of Kubernetes. It creates a simple cluster using Kind and deploys the Crunchy Data Kubernetes Operator.
+Sets up a local Kubernetes (K8s) cluster using KinD, configures an Nginx ingress controller for external communications, and finally deploys ArgoCD, enabling access to Argo's UI locally for managing Kubernetes cluster resources through a GitOps workflow.
